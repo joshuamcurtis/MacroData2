@@ -1,0 +1,15 @@
+Survey Dictionary Table
+Columns:
+    Primary Key: SurveyShortName
+    Data: SurveyLongName, SurveyAbbreviation
+
+Series Dictionary Table
+Columns:
+    Primary Key: SeriesID
+    Data: SeriesTitle, Seasonality, MeasureDataType, Area, Item
+
+Data Tables
+Table Name: SurveyShortName
+Columns: 
+    Primary Key: YearMon (YYYYMM)
+    Data: SeriesIDs
