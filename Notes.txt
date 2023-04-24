@@ -13,3 +13,19 @@ Table Name: SurveyShortName
 Columns: 
     Primary Key: YearMon (YYYYMM)
     Data: SeriesIDs
+
+Flow of adding data:
+1. Enter SeriesIDs
+2. Enter start and end dates
+3. Convert start and end dates into 20 year
+   or less increments.
+4. run get_BLS_data() for each 20 year or less
+   increment.
+5. Convert BLS data into dataframes
+6. Insert data frames into database
+
+To work on:
+*3. Convert start and end dates into 20 year
+   or less increments.
+ - Combine the functions that add data to the 
+   database.
