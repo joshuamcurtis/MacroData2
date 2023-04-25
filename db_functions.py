@@ -1,5 +1,6 @@
 import sqlite3 as db
 from sqlite3 import Error
+import pandas as pd
 
 def create_connection(db_name):
     """ 
